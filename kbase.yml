@@ -2,7 +2,7 @@ module-name:
     contigfilter
 
 module-description:
-    A KBase module
+    Demo module to count contigs
 
 service-language:
     perl
