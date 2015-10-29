@@ -31,14 +31,22 @@
 			"method": "",
 			"input_mapping": [
 				{
+					"narrative_system_variable": "workspace",
+					"target_argument_position": 0
+				},
+				{
 					"input_parameter": "contigset_id",
-					"target_property": "contigset_id"
+					"target_argument_position": 1
 				}
 			],
 			"output_mapping": [
 				{
+					"service_method_output_path": [0, "contig_count"],
+					"target_property": "contigCount"
+				},
+				{
 					"input_parameter": "contigset_id",
-					"target_property": "contigset_id"
+					"target_property": "contigsetId"
 				},
 				{
 					"narrative_system_variable": "workspace",
