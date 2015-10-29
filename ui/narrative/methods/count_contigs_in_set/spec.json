@@ -28,7 +28,7 @@
 		"service-mapping": {
 			"url": "",
 			"name": "contigfilter",
-			"method": "",
+			"method": "count_contigs",
 			"input_mapping": [
 				{
 					"narrative_system_variable": "workspace",
